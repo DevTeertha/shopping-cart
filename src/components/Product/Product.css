@@ -1,0 +1,42 @@
+.product{
+    display: flex;
+    margin: 2em;
+    border-bottom: 1px solid gray;
+}
+.product-header{
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+.product-header h1{
+    font-size: 1.5em;
+    color: blue;
+    font-weight: 400;
+    margin: 0;
+}
+.product-header p{
+    color: rgb(39, 39, 39);
+}
+.product-header p:nth-child(2){
+    margin: 0;
+}
+.price{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.product-header button {
+    background-color: orange;
+    padding: 0.5em 3em;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.product-header button:hover{
+    background-color: rgb(230, 150, 2);
+}
